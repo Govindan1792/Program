@@ -1,0 +1,85 @@
+Problem 1.1:
+
+a = "Govindan"
+print("Good morning, " + a + "!")
+
+Problem 2.2:
+
+janu = int(input("Enter the number of glasses "))
+rishi = int(input("Enter the number of glasses "))
+
+janu_money = janu * 8
+rishi_money = rishi * 10
+
+if janu_money > rishi_money:
+    print("Janu made the most money of {}".format(janu_money))
+elif rishi_money > janu_money:
+    print("Rishi made the most money of {}".format(rishi_money))
+else:
+    print("Janu and Rishi both made the same amount of money {} ".format(janu_money))
+
+
+Problem 1:
+
+a = 10
+b = 5
+
+a = a + b
+print("a =", a)
+
+b = a - b
+print("b =", b)
+
+a = a * b
+print("a = ", a)
+
+b = a % b
+print("b = ", b)
+
+Problem 2:
+
+num1 = int(input("Enter the first value = "))
+num2 = int(input("Enter the second value = "))
+if num1!=num2:
+    print(num1+num2)
+else:
+    print(2*(num1+num2))
+
+Problem 3:
+
+user_input = input("Enter a string: ")
+
+if len(user_input) >= 2:
+    swap_input = user_input[-1] + user_input[1:-1] + user_input[0]
+    print("Result is", swap_input)
+else:
+    print("String is very short")
+
+Problem 4:
+
+total_students = 3
+john = 10
+sachin = 14
+dhoni = 4
+
+total_hours = john + sachin + dhoni
+print(total_hours)
+
+avg_hours = total_hours / total_students
+print(avg_hours)
+
+Problem 5:
+
+total_distance = 3000
+num_days = 7
+num_stops_per_day = 3
+
+total_stops = num_days * num_stops_per_day
+print(total_stops)
+
+conversion_factor = 1.60934
+total_distance_km = total_distance * conversion_factor
+print(total_distance_km)
+
+avg_distance_km = total_distance_km / total_stops
+print(avg_distance_km)
